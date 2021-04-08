@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+    <!-- Add Styles -->
+    <link rel="stylesheet" href="style.css">
+    <title>Text Editor</title>
+</head>
+<body>
+    <!-- Making a div for our editor -->
+    <div class="text-editor">
+        <div class="options">
+            <i class="fa align fa-align-right option active-align"></i>
+            <i class="fa align fa-align-center option"></i>
+            <i class="fa align fa-align-left option"></i>
+            <i class="fa fa-italic option"></i>
+            <i class="fa fa-bold option"></i>
+            <i class="fa fa-minus option"></i>
+            <i class="fa fa-plus option"></i>
+            <input type="color" class="option color-box" value="#ffffff">
+        </div>
+        <!-- It is the text box we write in -->
+        <textarea id="text-box" placeholder="َشروع به نوشتن کنید ..." class="align-right"></textarea>
+    </div>
+      <!-- Add Javascript script -->
+    <script src="script.js"></script>
+</body>
+</html>
